@@ -1,2 +1,2 @@
 # causal-inference
-useful resources for causal inference/ml enthusiasts
+useful resources for causal inference enthusiasts
