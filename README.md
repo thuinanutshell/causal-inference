@@ -16,6 +16,7 @@
 ](https://www.redjournal.org/article/S0360-3016(20)30888-9/fulltext#%20) - Lalani, Nafisha, et al.
 
 It was a little confusing for me when I first learned about propensity scores, especially when looking at the graphical model. As I have mentioned, there will be many adjustment sets that you can condition on to block the backdoor paths and you can choose either one of them. The propensity score is the probability of receiving the treatment. Therefore, we only include covariates that we suspect might affect the receiving of treatment in the propensity score model. For example, even though by looking at the adjustment set, variable A should be controlled for to block the backdoor path, we need to question ourselves to see if variable A also affects the probability of receiving the treatment for all the units. 
+
 2. [Variable selection for propensity score modes](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC1513192/) - Brookhart, M. Alan, et al.
 ## Python Libraries
 1. [CausalInference](https://pypi.org/project/CausalInference/)
